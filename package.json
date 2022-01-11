@@ -1,0 +1,33 @@
+{
+  "name": "dgl-113-week01-demo",
+  "jest": {
+    "preset": "jest-puppeteer"
+  },
+  "version": "1.0.0",
+  "description": "DGL 113 Week 1 Demonstration",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NIC-Brian-Org/dgl-113-week01-demo.git"
+  },
+  "author": "Brian Koehler <brian.koehler@nic.bc.ca>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NIC-Brian-Org/dgl-113-week01-demo/issues"
+  },
+  "homepage": "https://github.com/NIC-Brian-Org/dgl-113-week01-demo#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.8",
+    "@types/jest": "^27.4.0",
+    "@types/puppeteer": "^5.4.4",
+    "babel-jest": "^27.4.6",
+    "jest": "^27.4.7",
+    "jest-puppeteer": "^6.0.3",
+    "puppeteer": "^13.0.1"
+  }
+}
