@@ -1,6 +1,14 @@
 <!doctype html>
 <html lang="en">
   <head>
+    
+    <!--JavaScript for pricing-->
+    <script>
+      alert("Hello!");
+      let proPricing=15;
+      let enterprisePricing=2*proPricing;
+    </script>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -88,7 +96,7 @@
               </div>
               <div class="card-body">
                 <h1 id="propriceh1"
-                    class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
+                    class="card-title pricing-card-title">$<script>document.write(proPricing);</script><small class="text-muted fw-light">/mo</small></h1>
                 <ul class="list-unstyled mt-3 mb-4">
                   <li>20 users included</li>
                   <li>10 GB of storage</li>
@@ -106,7 +114,7 @@
               </div>
               <div class="card-body">
                 <h1 id="enterprisepriceh1"
-                    class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
+                    class="card-title pricing-card-title">$<script>document.write(enterprisePricing);</script><small class="text-muted fw-light">/mo</small></h1>
                 <ul class="list-unstyled mt-3 mb-4">
                   <li>30 users included</li>
                   <li>15 GB of storage</li>
